@@ -10,16 +10,15 @@ immtable - 메모리 값 변경 불가
 
 num1 = 10
 print(id(num1))
-
-# num1 += 1
-# print(id(num1))
+num1 += 1
+print(id(num1))
  
-# num2 = 10
-# print(id(num2))
+num2 = 10
+print(id(num2))
 
 
-# list1 = [1, 2, 3]
-# print(id(list1))
-# list1.append(4)
-# print(id(list1))
+list1 = [1, 2, 3]
+print(id(list1))
+list1.append(4)
+print(id(list1))
 

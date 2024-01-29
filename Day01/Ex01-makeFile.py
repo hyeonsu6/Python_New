@@ -13,5 +13,5 @@ print('myFile.txt 파일이 생성되었습니다.')
 file.close()
 '''
 # with 문 - 자동으로 close()를 해준다.
-with open('myFile.txt', 'wt', encoding='UTF-8') as file:
+with open('./Python_New/Day01/myFile.txt', 'wt', encoding='UTF-8') as file:
     print('myFile.txt 파일이 생성되었습니다.')

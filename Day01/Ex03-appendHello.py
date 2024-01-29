@@ -1,11 +1,11 @@
 '''
-íŒŒì¼ëª… : Ex03-appendHello.py
+ÆÄÀÏ¸í : Ex03-appendHello.py
 
-open í•¨ìˆ˜ ëª¨ë“œ
-    a(append mode) : ì¶”ê°€ ëª¨ë“œ
+open ÇÔ¼ö ¸ğµå
+    a(append mode) : Ãß°¡ ¸ğµå
 '''
 file = open('./Python_New/Day01/hello.txt', 'at', encoding='UTF-8')
 file.write('Hello\n')
 file.write('Nice to meet you\n')
-print('hello.txt íŒŒì¼ì— ìƒˆë¡œìš´ ë‚´ìš©ì´ ì¶”ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.')
+print('hello.txt ÆÄÀÏ¿¡ »õ·Î¿î ³»¿ëÀÌ Ãß°¡ µÇ¾ú½À´Ï´Ù.')
 file.close()
